@@ -1,0 +1,67 @@
+{
+  "className": "中国科学技术大学 · 班级学习看板",
+  "semester": "2026 秋季学期",
+  "updated": "2026-10-13",
+  "subjects": [
+    {
+      "name": "数字电路",
+      "leader": "方翱，蒋鹏君",
+      "mockExam": { "done": 3, "total": 10, "note": "已出至第 3 套（组合逻辑部分）" },
+      "studyGuide": { "done": 5, "total": 8, "note": "整理到第 5 章 触发器" },
+      "materials": [
+        { "title": "教材《数字电子技术基础》电子版", "url": "" },
+        { "title": "往年期中/期末试卷合集", "url": "" }
+      ],
+      "feishu": "https://www.feishu.cn/"
+    },
+    {
+      "name": "模拟电路",
+      "leader": "韦世康，何秋雨，丁浩翔",
+      "mockExam": { "done": 2, "total": 8, "note": "已出至第 2 套（放大电路）" },
+      "studyGuide": { "done": 4, "total": 10, "note": "整理到第 4 章" },
+      "materials": [
+        { "title": "教材《模拟电子技术基础》电子版", "url": "" }
+      ],
+      "feishu": ""
+    },
+    {
+      "name": "复变函数",
+      "leader": "罗雨婷，可宇轩",
+      "mockExam": { "done": 1, "total": 6, "note": "已出至第 1 套" },
+      "studyGuide": { "done": 3, "total": 6, "note": "整理到第 3 章" },
+      "materials": [
+        { "title": "习题集及答案", "url": "" }
+      ],
+      "feishu": ""
+    },
+    {
+      "name": "概率论",
+      "leader": "孙昊燃，刘雨琨",
+      "mockExam": { "done": 2, "total": 6, "note": "已出至第 2 套" },
+      "studyGuide": { "done": 2, "total": 6, "note": "整理到第 2 章" },
+      "materials": [
+        { "title": "教材电子版", "url": "" },
+        { "title": "课后习题答案", "url": "" }
+      ],
+      "feishu": ""
+    },
+    {
+      "name": "计算机原理与嵌入式系统",
+      "leader": "余宗炫，付明炜",
+      "mockExam": { "done": 0, "total": 8, "note": "尚未开始" },
+      "studyGuide": { "done": 1, "total": 8, "note": "整理到第 1 章 绪论" },
+      "materials": [],
+      "feishu": ""
+    },
+    {
+      "name": "电磁学",
+      "leader": "包轩宇，苏超然",
+      "mockExam": { "done": 1, "total": 5, "note": "已出至第 1 套" },
+      "studyGuide": { "done": 2, "total": 7, "note": "整理到第 2 章" },
+      "materials": [
+        { "title": "教材电子版", "url": "" }
+      ],
+      "feishu": ""
+    }
+  ]
+}

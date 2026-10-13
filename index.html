@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>班级学习看板 · USTC</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231a56a5'/><text x='50' y='72' font-size='56' text-anchor='middle'>%F0%9F%93%9A</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="logo">📚</span>
+        <div class="brand-text">
+          <h1 id="className">班级学习看板</h1>
+          <p id="headerMeta" class="subtitle">正在加载…</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="quote-banner">
+    <span class="quote-mark">“</span>
+    <p class="quote-text" id="quoteText">正在加载今日寄语…</p>
+    <span class="quote-day" id="quoteDay"></span>
+  </section>
+
+  <main class="board" id="board" aria-label="各科目学习进度看板">
+    <p class="loading" id="loading">正在加载看板数据…</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>内容由学习委员维护 · 同学只读访问 · 托管于 GitHub Pages</p>
+  </footer>
+
+  <noscript>本页面需要启用 JavaScript 才能显示看板内容。</noscript>
+  <script src="script.js"></script>
+</body>
+</html>
