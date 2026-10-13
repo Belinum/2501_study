@@ -233,3 +233,34 @@ fetch("subjects.json")
   .catch(function () {
     showLoadError();
   });
+/* 壁纸背景轮播：把图片放进 pictures 文件夹，路径填在 BACKGROUNDS 数组里即可 */
+var BACKGROUNDS = [
+  "pictures/1.jpg",
+  "pictures/2.jpg"
+];
+
+var bgIndex = 0;
+
+function buildBackground() {
+  var bg = document.getElementById("background");
+  if (!bg || BACKGROUNDS.length === 0) return;
+
+  BACKGROUNDS.forEach(function (src, i) {
+    var slide = document.createElement("div");
+    slide.className = "bg-slide" + (i === 0 ? " active" : "");
+    slide.style.backgroundImage = "url('" + src + "')";
+    bg.appendChild(slide);
+  });
+
+  if (BACKGROUNDS.length > 1) {
+    setInterval(function () {
+      var slides = bg.querySelectorAll(".bg-slide");
+      if (!slides.length) return;
+      slides[bgIndex].classList.remove("active");
+      bgIndex = (bgIndex + 1) % slides.length;
+      slides[bgIndex].classList.add("active");
+    }, 8000);
+  }
+}
+
+buildBackground();
