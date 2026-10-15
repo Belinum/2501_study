@@ -237,6 +237,17 @@ fetch("subjects.json")
 var BACKGROUNDS = [
   "pictures/1.jpg",
   "pictures/2.jpg"
+  "pictures/3.jpg"
+  "pictures/4.jpg"
+  "pictures/5.jpg"
+  "pictures/6.jpg"
+  "pictures/7.jpg"
+  "pictures/8.jpg"
+  "pictures/9.jpg"
+  "pictures/10.jpg"
+  "pictures/11.jpg"
+  "pictures/12.jpg"
+  "pictures/13.jpg"
 ];
 
 var bgIndex = 0;
