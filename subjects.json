@@ -22,7 +22,7 @@
       "mockExam": { "done": 0, "total": 8, "note": "暂未开始" },
       "studyGuide": { "done": 0, "total": 8, "note": "暂未开始" },
       "materials": [
-        { "title": "电子线路（戴蓓清）", "url": "" },
+        { "title": "电子线路（戴蓓清）", "url": "" }
       ],
       "feishu": ""
     },
