@@ -14,7 +14,7 @@
         { "title": "课程PPT", "url": "" },
         { "title": "电子版教材", "url": "" }
       ],
-      "feishu": "https://www.feishu.cn/"
+      "feishu": "https://rcn29xg0wmpi.feishu.cn/docx/M70sdjGAvopc2Cxu9Hlc9YSDnEh"
     },
     {
       "name": "模拟电路",
@@ -22,7 +22,7 @@
       "mockExam": { "done": 0, "total": 8, "note": "暂未开始" },
       "studyGuide": { "done": 0, "total": 8, "note": "暂未开始" },
       "materials": [
-        { "title": "", "url": "" }
+        { "title": "电子线路（戴蓓清）", "url": "" },
       ],
       "feishu": ""
     },
@@ -34,7 +34,7 @@
       "materials": [
         { "title": "往年题", "url": "" }
       ],
-      "feishu": ""
+      "feishu": "https://rcn29xg0wmpi.feishu.cn/docx/RGeXdeU5xoZzFJx1llkcGKPLnhf"
     },
     {
       "name": "概率论",
@@ -45,7 +45,7 @@
         { "title": "教材电子版", "url": "" },
         { "title": "课后习题答案", "url": "" }
       ],
-      "feishu": ""
+      "feishu": "https://rcn29xg0wmpi.feishu.cn/docx/QrCxdv29Xo20GZxxRsGcmxa3nmg"
     },
     {
       "name": "计算机原理与嵌入式系统",
@@ -67,7 +67,7 @@
       "materials": [
         { "title": "", "url": "" }
       ],
-      "feishu": ""
+      "feishu": "https://rcn29xg0wmpi.feishu.cn/docx/YbpLd1FZ1oMmaDxONjGcKQ0Yndd"
     }
   ]
 }
